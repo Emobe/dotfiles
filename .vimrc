@@ -108,7 +108,8 @@ endif
 "ALE
 let g:ale_fixers = {
       \'vue': ['eslint'],
-      \'javascript': ['eslint']
+      \'javascript': ['eslint'],
+      \'typescript': ['tslint']
 \}
 let g:ale_fix_on_save = 1
 
