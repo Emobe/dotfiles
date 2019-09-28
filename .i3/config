@@ -429,3 +429,5 @@ bindsym $mod+F7 exec ~/.screenlayout/muhlayoutwork.sh && feh --bg-scale ~/bg/oct
 
 # Set background
 exec feh --bg-scale ~/bg/octopus-diner-stphan-brisson.jpg
+# Start verdaccio
+exec verdaccio
