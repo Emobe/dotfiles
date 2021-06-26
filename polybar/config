@@ -1,0 +1,32 @@
+;=====================================================
+;     File Includes
+;=====================================================
+
+[section/base]
+include-file = ~/.config/polybar/master
+;include-file = /home/chris/.config/polybar/modules.conf
+
+
+;=====================================================
+;     i3 Bars
+;=====================================================
+
+[bar/second]
+inherit = bar/master
+
+; Use $ xrandr -q | grep " connected" | cut -d ' ' -f1
+monitor = HDMI-1
+
+modules-left   = i3
+modules-center = clock weather
+modules-right  = cointop crypto filesystem
+
+[bar/first]
+inherit = bar/master
+
+; Use $ xrandr -q | grep " connected" | cut -d ' ' -f1
+monitor = DP-3
+
+modules-left   = i3
+modules-center = mpd clock weather
+modules-right  = mail battery cputemp volume

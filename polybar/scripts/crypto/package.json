@@ -1,0 +1,15 @@
+{
+  "name": "polybar-crypto",
+  "version": "0.0.1",
+  "description": "Crypto tracking for Polybar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anthony Shuker <anthony@emobe.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "coingecko-api": "^1.0.10",
+    "configparser": "^0.3.6"
+  }
+}

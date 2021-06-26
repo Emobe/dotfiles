@@ -1,0 +1,36 @@
+# vi ~/.muttrc
+# About Me
+set from = "anthony@emobe.uk"
+set realname = "Anthony Shuker"
+
+# My credentials
+set smtp_url = "smtp://anthony@emobe.uk@smtp.livemail.co.uk:25/"
+set smtp_pass = "DA?M3!Tn4Ns^1X*XqC"
+set imap_user = "anthony@emobe.uk"
+set imap_pass = "DA?M3!Tn4Ns^1X*XqC"
+
+# My mailboxes
+set folder = "imap://mail.livemail.co.uk:143"
+set spoolfile = "+INBOX"
+
+
+# Where to put the stuff
+set header_cache = "~/.mutt/cache/headers"
+set message_cachedir = "~/.mutt/cache/bodies"
+set certificate_file = "~/.mutt/certificates"
+
+# Etc
+set mail_check = 30
+set move = no
+set imap_keepalive = 900
+set sort = threads
+set editor = "vim"
+
+# GnuPG bootstrap
+# source ~/.mutt/gpg.rc
+
+
+#Turn on sidebar
+set sidebar_visible
+set sidebar_format = "%B%?F? [%F]?%* %?N?%N/?%S"
+set mail_check_stats

@@ -1,0 +1,10 @@
+mileszs/ack.vim
+junegunn/fzf.vim
+preservim/nerdtree
+ap/vim-buftabline
+tpope/vim-dispatch
+tpope/vim-fugitive
+tpope/vim-surround
+posva/vim-vue
+neoclide/coc.nvim
+leafgarland/typescript-vim
